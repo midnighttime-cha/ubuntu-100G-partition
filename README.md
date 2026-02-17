@@ -1,4 +1,4 @@
-# Ubuntu Partition for CIS
+# ตัวอย่างการแบ่ง Partition สำหรับ Ubuntu อ้างอิงขนาด HDD 100GB
 | Partition	| Mount Point | ขนาดแนะนำ | CIS Mount Options | ความสำคัญ |
 |---|---|---|---|---|
 | / |	Root | 20GB | defaults | เก็บไฟล์ระบบหลัก |
