@@ -9,5 +9,5 @@
 | /var/log/audit | Audit Logs | 5GB | defaults | แยก Log ความปลอดภัยตามมาตรฐาน CIS |
 | /tmp | Temp | 5GB | nodev,nosuid,noexec | ป้องกันการรัน Script อันตรายในโฟลเดอร์ชั่วคราว |
 | /var/tmp | Var Temp | 5GB | nodev,nosuid,noexec | คล้าย /tmp แต่เก็บไฟล์นานกว่า |
-| /dev/shm | Shared Mem	(RAM) | nodev,nosuid,noexec | ปรับแต่งผ่าน /etc/fstab |
-| Free Space | LVM Free	~24 GB | - | เหลือไว้เผื่อขยาย (LVM Extend) |
+| /dev/shm | Shared Mem |	(RAM) | nodev,nosuid,noexec | ปรับแต่งผ่าน /etc/fstab |
+| Free Space | LVM Free	| ~24 GB | - | เหลือไว้เผื่อขยาย (LVM Extend) |
