@@ -2,7 +2,7 @@
 | Partition	| Mount Point | ขนาดแนะนำ | CIS Mount Options | ความสำคัญ |
 |---|---|---|---|---|
 | / |	Root | 20GB | defaults | เก็บไฟล์ระบบหลัก |
-| /boot | Boot | 1GB | defaults | แยกไฟล์ Kernel ออกมา |
+| /boot | Boot | 2GB | defaults | แยกไฟล์ Kernel ออกมา |
 | /home | User Data | 15GB | nodev | กันข้อมูลผู้ใช้เต็มแล้วระบบพัง |
 | /var | Variable | 15GB | defaults | เก็บฐานข้อมูล/ไฟล์ที่เปลี่ยนแปลงบ่อย |
 | /var/log | Logs | 10GB | defaults | สำคัญมาก: กัน Log เต็มจนระบบหยุดทำงาน |
