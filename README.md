@@ -1,10 +1,10 @@
 # Ubuntu Partition for CIS
-| Header 1 | Header 2 | Header 3 |
-|---|---|---|
+| Partition	| Mount Point | ขนาดแนะนำ | CIS Mount Options | ความสำคัญ |
+|---|---|---|---|---|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
 ```
-Partition	Mount Point	ขนาดแนะนำ	CIS Mount Options	ความสำคัญ
+
 /	Root	20 GB	defaults	เก็บไฟล์ระบบหลัก
 /boot	Boot	1 GB	defaults	แยกไฟล์ Kernel ออกมา
 /home	User Data	15 GB	nodev	กันข้อมูลผู้ใช้เต็มแล้วระบบพัง
